@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url("imagenes/background.jpg");
+    color: black;
+}
+#contenedor{
+    /* background-color: rgb(120, 127, 150); */
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+nav{
+    justify-content: flex-end; 
+    background-color: #48768F;
+    border-radius: 5px 5px 0 0;
+}
+nav ul {
+    list-style-type: none;
+}
+nav>ul>li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0; 
+    transition: all 500ms;
+}
+
+nav>ul>li a{
+    text-decoration: none;
+    color: white;    
+}
+
+nav>ul>li:hover {
+    /* background-color: rgb(50, 111, 145); */
+    background-color: rgb(41, 41, 41);
+    box-shadow: 0 0 4px black inset;
+    cursor: pointer;
+}
+
+#foto{
+    width: 200px;
+}
+
+#curriculum{
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+}
