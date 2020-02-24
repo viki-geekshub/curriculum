@@ -1,63 +1,367 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{box-sizing: border-box; 
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body{
-    font-family: sans-serif;
+body {
+    font-family: "PT Sans", Helvetica, sans-serif !important;
     background-image: url("imagenes/background.jpg");
     color: black;
 }
-#contenedor{
-    /* background-color: rgb(120, 127, 150); */
+
+#contenedor {
     background-color: white;
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: flex;
-
+    padding-top: 100px;
+    padding-bottom: 60px;
+    height: 100%;
+    box-shadow: 0px 0px 5px 5px grey;
 }
 
-nav{
-    justify-content: flex-end; 
+nav {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #48768F;
-    border-radius: 5px 5px 0 0;
 }
+
 nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
-nav>ul>li {
-    display: inline-block;
-    padding: 20px 20px;
-    font-size: 20px;
+
+nav>ul>a>li {
+    padding: 20px 38.5px;
+    font-size: 20px !important;
     line-height: 40px;
-    border: 1px solid black;
-    border-radius: 5px 5px 0 0; 
     transition: all 500ms;
 }
 
-nav>ul>li a{
+nav>ul>a li {
     text-decoration: none;
-    color: white;    
+    color: white;
 }
 
-nav>ul>li:hover {
-    /* background-color: rgb(50, 111, 145); */
+a {
+    text-decoration: none;
+}
+
+nav>ul>a>li:hover {
     background-color: rgb(41, 41, 41);
     box-shadow: 0 0 4px black inset;
     cursor: pointer;
 }
 
-#foto{
-    width: 200px;
+#sobre_mi {
+    display: flex;
+    padding: 10px;
 }
 
-#curriculum{
-    border: 1px solid black;
-    border-radius: 5px 5px 0 0;
-    width: 200px;
+#imagen_descarga {
+    margin: 10px;
 }
+
+#foto {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 5px;
+}
+
+#curriculum {
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px 9px;
+    background-color: #48768F;
+    cursor: pointer;
+}
+
+#icono_descarga {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#descarga {
+    display: inline;
+    color: white;
+}
+
+#texto {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: rgb(99, 98, 98);
+}
+
+#mi_descripcion {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#datos_personales {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+.enunciados {
+    color: rgb(99, 98, 98);
+}
+
+.datos {}
+
+/*************************  ESTILOS ESTUDIOS y EXPERIENCIA *************************/
+
+.titulo_principal {
+    color: #48768F;
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+
+#caja_general {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.estudio {
+    margin: 25px;
+    padding: 20px;
+    width: 440px;
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 10px;
+}
+
+.año {
+    background-color: #48768F;
+    width: 200px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: -40px;
+    box-shadow: 4px 4px 5px 1px grey;
+}
+
+.icono_titulo,
+.icono_escuela {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.titulo,
+.escuela {
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+
+.segundo {
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+.descripcion {
+    margin-top: 30px;
+}
+
+.tabulacion:first-letter {
+    margin-left: 15px;
+}
+
+#imagen_sonido {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*************************  CONTACTO *****************************/
+
+/* *,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    transition: all 0.5s ease 0s;
+  } */
+/* body {
+    background-color: hsla(207, 44%, 49%, 1);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    font: 18px sans-serif;
+  } */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: rgb(145, 143, 143);
+    border: 1px solid #c7c5c5;
+    color: white;
+    display: inline-block;
+    outline: medium none;
+    padding: 10px;
+    width: 32%;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+
+input[name="name"],
+input[name="empresa"] {
+    background-color: rgb(145, 143, 143);
+    width: 100%;
+}
+
+input[name="email"] {
+    background-color: rgb(145, 143, 143);
+    width: 60%;
+}
+
+input[name="phone"] {
+    background-color: rgb(145, 143, 143);
+    width: 36%;
+    float: right;
+}
+
+
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: black;
+    color: white;
+
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background: #48768F;
+    border: medium none;
+    color: #fff;
+    outline: medium none;
+    padding: 8px 0;
+    transition: all 0.5s ease 0s;
+    width: 18%;
+    font-size: 1.4em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea {
+    display: block;
+    min-height: 150px;
+    resize: none;
+    width: 100%;
+    overflow: auto;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: hsla(0, 0%, 0%, 0.8);
+    font: italic 18px serif;
+
+}
+
+form {
+    width: 100%;
+}
+
+#formulario {
+    max-width: 800px;
+    width: 90%;
+    min-height: 1px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+/********************** PORTFOLIO *******************************/
+
+.imagen_proyecto {
+    width: 200px;
+    text-align: center;
+}
+
+.titulo_proyecto {
+    text-align: center;
+    color: black;
+}
+
+.caja_proyecto{
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 10px;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+/**************************** SKILLS **************************************/
+
+.tamaño{
+    width: 300px;
+}
+
+.otros_datos{
+    font-weight: bold;
+    padding: 10px 40px 40px 40px;
+}
+
+.icono_dato{
+    width: 25px;
+    vertical-align: center;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_conocimientos{
+    width: 50%;
+    text-align: right;    
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.padding{
+    padding-bottom: 5px;
+}
+
+.padding2{
+    padding-bottom: 10px;
+}
+
+
+
+.estrellas{
+    width: 20%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.icono_estrellas{
+    width: 80px;
+    vertical-align: middle;
+    margin-left: 20px;
+    padding-bottom: 3px;
+
+}
+
+
+

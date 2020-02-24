@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi curriculum vitae</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav id="menu">
+            <ul>               
+                <a href="index.html"><li>Sobre mí</li></a>
+                <a href="portfolio.html"><li>Portfolio</li></a>
+                <a href="estudios.html"><li>Formación</li></a>
+                <a href="experiencia.html"><li>Experiencia</li></a>
+                <a href="skills.html"><li>Skills</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div id="contenedor">
+        <main id="formulario">
+            <h1 class="titulo_principal">CONTÁCTAME:</h1>
+            <p>&nbsp;</p>
+            <form action="#" method="post">
+                <input name="name" placeholder="Nombre" type="text" required>
+                <input name="empresa" placeholder="Empresa" type="text" required>   
+                <input name="email" placeholder="E-mail" type="email" required>
+                <input name="phone" placeholder="Teléfono (9 dígitos)" type="text" pattern="^[9|8|7|6]\d{8}$" required>
+                <textarea name="message" placeholder="Mensaje" required></textarea>
+
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+
+            </form>
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>
