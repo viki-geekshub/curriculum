@@ -128,64 +128,45 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
         <div class="caja_año">
             <h3 class="año">2020</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Bootcamp Full Stack Developer</p><br>
-        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
-        <p class="segundo titulo">560 horas</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Geekshubs Academy</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Bootcamp Full Stack Developer</p><br>
+        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp; 560 horas</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Geekshubs Academy</p>
         <p class="descripcion tabulacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus ratione iure quaerat sunt nesciunt suscipit voluptatem? Molestias maxime eos quis, quam obcaecati fuga non facilis, nisi ipsam illo inventore?</p>
     </div>
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2019</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Confección y Publicación</p><br>
-        <p class="tercer titulo">de Páginas Web</p><br>
-        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
-        <p class="segundo titulo">520 horas</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Grupo Atrium</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Confección y Publicación de Páginas Web</p><br>
+        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp; 520 horas</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Grupo Atrium</p>
         <p class="descripcion tabulacion"><strong>Certificado de profesionalidad</strong> - Formación orientada como desarrolladora web, con conocimientos de Java, JSP, SQL, Html, CSS, Javascript y AJAX + <strong>80 horas de prácticas en la empresa Edyals</strong></p>
     </div>
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2019</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Diseño Web</p><br>
-        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
-        <p class="segundo titulo">140 horas (5 módulos)</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Escuela de Leganés</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Diseño Web</p><br>
+        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp; 140 horas (5 módulos)</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Escuela de Leganés</p>
         <p class="descripcion tabulacion">Itinerario formativo - Html, CSS, Javascript </p>
     </div>
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2018</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Adiestramiento de base y</p><br>
-        <p class="tercer titulo">educación canina</p><br>
-        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
-        <p class="segundo titulo">380 horas</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Escuela Narub</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp;  Adiestramiento de base y educación canina</p><br>
+        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp;  380 horas</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp;  Escuela Narub</p>
         <p class="descripcion tabulacion"><strong>Certificado de profesionalidad</strong> - Técnicas de adiestramiento de base, modificación de conductas no deseadas, cuidados higienicos y primeros auxilios aplicados a perros + Módulo de prácticas en un centro homologado (40 horas)</p>
     </div>    
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2017</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Dirección y Coordinación de</p><br>
-        <p class="tercer titulo">actividades de tiempo libre</p><br>
-        <p class="tercer titulo">educativo infantil y juvenil</p><br>
-        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
-        <p class="segundo titulo">410 horas</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Masercisa</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Dirección y Coordinación de actividades de tiempo libre educativo infantil y juvenil</p><br>
+        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp; 410 horas</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Masercisa</p>
         <p class="descripcion tabulacion"><strong>Certificado de profesionalidad</strong> - Planificación, organización, gestión y evaluación de proyectos educativos de tiempo libre infantil y juvenil. Procesos grupales y educativos. Técnicas y recursos de animación en actividades. Coordinación y dinamización del equipo de monitores.</p>
     </div> 
     <div class="estudio">
@@ -194,16 +175,12 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
         </div>
         <div id="imagen_sonido">
             <div class="imagen_sonido">
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Imagen</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">I.E.S. Valcárcel</p><br>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Imagen</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; I.E.S. Valcárcel</p><br>
             </div>
             <div class="imagen_sonido">
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Sonido</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">I.E.S. Puerta Bonita</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Sonido</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; I.E.S. Puerta Bonita</p>
             </div>
         </div>
         <p class="descripcion tabulacion"><strong>Ciclos formativos de grado superior.</strong></p>
@@ -229,10 +206,8 @@ const Experiencia = `<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
         <div class="caja_año">
             <h3 class="año">2006</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Teleoperadora</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Fénix Directo</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Teleoperadora</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Fénix Directo</p>
         <p class="descripcion tabulacion">Contratación de pólizas de nueva producción, gestión y atención al
             cliente.</p>
     </div>
@@ -240,20 +215,16 @@ const Experiencia = `<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
         <div class="caja_año">
             <h3 class="año">2005</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Vendedora y Dependienta</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Petardos C.M.</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Vendedora y Dependienta</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Petardos C.M.</p>
         <p class="descripcion tabulacion">Dependienta en tienda durante la campaña de navidad.</p>
     </div>
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2004 - 2005</h3>
-        </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Monitora de Paintball</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Shootballs</p>
+        </div>        
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Monitora de Paintball</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Shootballs</p>
         <p class="descripcion tabulacion">Coordinación de grupos, desarrollo de las actividades y/o eventos,
             y preparación, limpieza y puesta a punto de los equipos.</p>
     </div>
@@ -261,10 +232,8 @@ const Experiencia = `<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
         <div class="caja_año">
             <h3 class="año">2004 - 2005</h3>
         </div>
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Operadora de Cámara y Edición</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Canal Norte T.V.</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp;  Operadora de Cámara y Edición</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp;  Canal Norte T.V.</p>
         <p class="descripcion tabulacion">Realización de grabaciones en plató, edición lineal y no-lineal,
             encargada de continuidad y producción. (Prácticas)</p>
     </div>
@@ -272,10 +241,8 @@ const Experiencia = `<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
         <div class="caja_año">
             <h3 class="año">2002 - 2003</h3>
         </div>                    
-        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Auxiliar de Caja</p><br>
-        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Supermercados Alcosto</p>
+        <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp;  Auxiliar de Caja</p><br>
+        <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp;  Supermercados Alcosto</p>
         <p class="descripcion tabulacion">Dependienta en caja, reponedora y atención al cliente.</p>
     </div>
 </div>`;
@@ -302,12 +269,15 @@ const Skills = `<h1 class="titulo_principal">SKILLS</h1>
                 <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Office</p>
                 <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Photoshop, Premier</p>
+                <p class="padding">Photoshop</p>
+                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+                <p class="padding">Premiere</p>
                 <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Mecanografía</p>
                 <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Terapia asistida con animales</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas">
+                <br>
             </div>
         </div>
     </div>
