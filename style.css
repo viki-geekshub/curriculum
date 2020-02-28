@@ -12,31 +12,42 @@ body {
     background-image: url("imagenes/background.jpg");
     color: black;
 }
-main{
+
+header {
+    width: 100%;
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
+    
 }
 #contenedor {
     background-color: white;
-    width: 1100px;
+    width: 80%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top:  100px;
     padding-bottom: 60px;
-    height: 100%;
+    /* height: 100%; */
     box-shadow: 0px 0px 5px 5px grey;
     display: flex;
     flex-wrap: wrap;
 }
 
 nav {
+    display: flex;
     width: 100%;
     margin: 0 auto;
+    background-color: #48768F;
+}
+
+.sticky {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 0;
-    left: 0;
-    background-color: #48768F;
 }
 
 nav ul {
@@ -44,24 +55,29 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 nav>ul>li {
     padding: 20px 38.5px;
-    font-size: 20px !important;
+    font-size: 20px;
     line-height: 40px;
     transition: all 500ms;
-}
-
-nav>ul li {
     text-decoration: none;
+    user-select: none;
+    /* Para decirle que no permita la selección del texto del menú */
     color: white;
 }
 
 a {
     text-decoration: none;
 }
-
+.show{
+    display: inline;
+}
+.hide{
+    display: none;
+}
 nav>ul>li:hover {
     background-color: rgb(41, 41, 41);
     box-shadow: 0 0 4px black inset;
@@ -75,13 +91,13 @@ nav>ul>li:hover {
 }
 
 #imagen_descarga {
+    /* display: flex; */
     margin: 10px;
     width: 30%;
 }
 
 #foto {
-    width: 300px;
-    margin: 10px;
+    width: 100%;
     border: 2px solid rgb(99, 98, 98);
     border-radius: 5px;
 }
@@ -89,11 +105,12 @@ nav>ul>li:hover {
 #curriculum {
     border: 2px solid rgb(99, 98, 98);
     border-radius: 5px;
-    width: 300px;
-    margin: 10px;
-    padding: 20px 9px;
+    width: 100%;
+    padding: 15px 9px;
+    margin-top: 5px;
     background-color: #48768F;
     cursor: pointer;
+    text-align: center;
 }
 
 #icono_descarga {
@@ -108,6 +125,7 @@ nav>ul>li:hover {
 }
 
 #texto {
+    /* display: flex; */
     margin-top: 20px;
     padding: 20px;
     width: 65%;
@@ -119,7 +137,7 @@ h2 {
 }
 
 #mi_descripcion {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: justify;
 }
 
@@ -137,7 +155,7 @@ h4 {
     color: rgb(99, 98, 98);
 }
 
-.datos {}
+
 
 /*************************  ESTILOS ESTUDIOS y EXPERIENCIA *************************/
 
@@ -151,15 +169,16 @@ h4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    /* margin-left: 30px; */
 }
 
 .estudio {
     margin: 25px;
     padding: 20px;
-    width: 440px;
+    /* max-width: 440px; */
     border: 2px solid rgb(99, 98, 98);
     border-radius: 10px;
+    width: 40%;
 }
 
 .año {
@@ -173,21 +192,32 @@ h4 {
 }
 
 .icono_titulo,
-.icono_escuela {
+.icono_escuela{
     width: 20px;
     vertical-align: middle;
+}
+
+.icono_relog{
+    width: 9px;
+    vertical-align: middle;
+    margin-left: 5px;
+
 }
 
 .titulo,
 .escuela {
     font-weight: bold;
     display: inline-block;
-    margin: 10px 0 0 0;
+    margin-top: 4px;
 }
 
 .segundo {
-    margin-left: 25px;
-    margin-top: 0;
+    margin-left: 7px;
+    /* margin-top: 0; */
+}
+
+.tercer{
+    margin-left: 32px;
 }
 
 .descripcion {
@@ -202,6 +232,87 @@ h4 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/********************** PORTFOLIO *******************************/
+
+.caja_proyecto {
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 10px;
+}
+
+.imagen_proyecto {
+    width: 200px;
+    text-align: center;
+}
+
+.titulo_proyecto {
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+
+/**************************** SKILLS **************************************/
+
+.conocimientos{
+    margin: 25px;
+    padding: 20px;
+    /* max-width: 440px; */
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 10px;
+    width: 40%;
+}
+
+.tamaño {
+    width: 300px;
+}
+
+.otros_datos {
+    font-weight: bold;
+    /* padding: 10px 40px 40px 40px; */
+}
+
+.icono_dato {
+    width: 25px;
+    vertical-align: center;
+}
+
+.contenido {
+    /* display: flex; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titulo_conocimientos {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.padding {
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.padding2 {
+    padding-bottom: 10px;
+}
+
+/* .estrellas {
+    width: 20%;
+    text-align: left;
+    margin-top: 10px;
+} */
+
+.icono_estrellas {
+    width: 80px;
+    vertical-align: middle;
+    margin-left: 20px;
+    padding-bottom: 3px;
+
 }
 
 /*************************  CONTACTO *****************************/
@@ -291,6 +402,7 @@ textarea::placeholder {
 
 form {
     width: 75%;
+    padding-bottom: 85px;
 }
 
 /* #formulario {
@@ -300,82 +412,272 @@ form {
     margin: auto;
     padding-bottom: 40px;
 } */
+.menu-burguer {
+    display: none;
+}
+/*******************************************/
+/* RESPONSIVE*/
 
-/********************** PORTFOLIO *******************************/
 
-.imagen_proyecto {
-    width: 200px;
-    text-align: center;
+/* @media (min-width:900px){
+    #caja_general{
+        flex-wrap: unset;
+    }
+} */
+
+@media (max-width:940px){
+    /* #contenedor{
+        padding-top: 150px;
+    } */
+    nav>ul>li {
+        padding: 20px;
+    }
 }
 
-.titulo_proyecto {
-    text-align: center;
-    color: black;
+@media (max-width:897px){
+    /* #contenedor{
+        padding-top: 150px;
+    } */
+    /* nav>ul>li {
+        padding: 20px;
+    } */
+    .estudio, .conocimientos{
+        width: 100%;
+        margin: 25px 100px;
+        padding: 20px 50px;
+    }
+    .año{
+        margin-left: -70px;
+    }
+    #imagen_descarga{
+        margin-top: 50px;
+    }
+
+    #curriculum{
+        padding: 5px;
+    }
 }
 
-.caja_proyecto{
-    margin: 25px;
-    padding: 15px;
-    border: 2px solid rgb(99, 98, 98);
-    border-radius: 10px;
+@media (max-width: 871px){
+    /* #contenedor{
+        padding-top: 150px;
+    } */
+    /* nav>ul>li {
+        padding: 20px;
+    } */
+    /* .estudio, .conocimientos{
+        width: 100%;
+        margin: 25px 100px;
+        padding: 20px 50px;
+    }
+    .año{
+        margin-left: -70px;
+    }
+    #imagen_descarga{
+        margin-top: 50px;
+    }
+
+    #curriculum{
+        padding: 5px;
+    } */
+
+    .ocultar_texto{
+        display: none;
+    }
+
+    #mi_descripcion{
+        margin-bottom: 15px;
+    }
+
+    #imagen_descarga{
+        margin-top: 120px;
+    }
 }
 
-h3{
-    margin-top: 15px;
+@media (max-width: 718px){
+    /* #contenedor{
+        padding-top: 150px;
+    } */
+    /* nav>ul>li {
+        padding: 20px;
+    } */
+    /* .estudio, .conocimientos{
+        width: 100%;
+        margin: 25px 100px;
+        padding: 20px 50px;
+    }
+    .año{
+        margin-left: -70px;
+    }
+    #imagen_descarga{
+        margin-top: 50px;
+    }
+
+    #curriculum{
+        padding: 5px;
+    } */
+
+    /* .ocultar_texto{
+        display: none;
+    }
+
+    #mi_descripcion{
+        margin-bottom: 15px;
+    }
+
+    #imagen_descarga{
+        margin-top: 120px;
+    } */
+
+    nav>ul>li {
+        padding: 10px;
+        font-size: 18px;
+    } 
+    #contenedor{
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    #imagen_descarga{
+        margin-top: 190px;
+    }
+
+    .titulo_principal{
+        font-size: 28px;
+    }
+
+    input[type="button"], input[type="reset"], input[type="submit"] {
+        
+        width: 40%;
+        font-size: 17px;
+    }
 }
 
-/**************************** SKILLS **************************************/
+@media (max-width:576px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
 
-.tamaño{
-    width: 300px;
+    nav>ul>li {
+        padding: 0.3em;
+        font-size: 20px;
+    }
+
+    .menu-burguer {
+        display: block;
+        opacity: 0.5;
+        width: 48px;
+        height: 48px;
+        padding: 0.3em;
+        cursor: pointer;
+    }
+
+    #contenedor{
+        width: 100%;
+    }
+    #imagen_descarga{
+        width: 60%;
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    #sobre_mi {
+        justify-content: center;
+    }
+
+
+    
+    /* #foto{
+        width: 50%;
+    } */
+
+    /* .mostrar_texto{
+        display: block;
+    } */
+
+    #texto{
+        width: 100%;
+        margin-top: 0;
+        padding-top: 5px;
+    }
+
+    #datos_personales {
+        width: 100%;
+        font-size: 15px;
+        justify-content: center;
+    }
+    .datos{
+        width:40%;
+        /* margin-bottom: 20px; */
+        margin-left: 15px;
+        /* text-align: center; */
+    }
+
+    /* #ocultar_texto{
+        display: none;
+        
+    } */
+
+    .nombre{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /* #margen_especial{
+        margin-top: 33px;
+    } */
 }
 
-.otros_datos{
-    font-weight: bold;
-    padding: 10px 40px 40px 40px;
+@media (max-width: 559px) {
+    .estudio, .conocimientos{
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    /* .conocimientos {
+        width: 100%;
+        margin: 1px;
+        padding: 5px;
+    } */
+
+    .tamaño {
+        width: 220px;
+    }
+
+    .año{
+        margin-left: -18px;;
+    }
+    
+    .titulo_principal{
+        font-size: 25px;
+    }
 }
 
-.icono_dato{
-    width: 25px;
-    vertical-align: center;
-}
+@media (max-width: 430px) {
+    #datos_personales {
+        /* display: flex; */
+        flex-direction: column;
+        
+        
+        
+        /* flex-wrap: nowrap */
+    }
 
-.contenido {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+    .datos{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
 
-.titulo_conocimientos{
-    width: 50%;
-    text-align: right;
-    font-weight: bold;
-    margin: 10px 0 0 0;
-}
+    #sobre_mi{
+        padding: 0;
+    }
 
-.padding{
-    padding-bottom: 5px;
-}
-
-.padding2{
-    padding-bottom: 10px;
-}
-
-
-
-.estrellas{
-    width: 20%;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.icono_estrellas{
-    width: 80px;
-    vertical-align: middle;
-    margin-left: 20px;
-    padding-bottom: 3px;
+    
+        
 
 }
-
-
-

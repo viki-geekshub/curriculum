@@ -8,19 +8,19 @@ const Sobre_mi = `
 
             <img id="icono_descarga" src="imagenes/icono_descarga_amarillo.webp"
                 alt="Icono de descarga">
-            <h4 id="descarga">Descargar mi currículum en PDF</h4>
+            <h4 id="descarga">Descargar mi currículum</h4>
         
     </div>
 
 </a>
 </div>
 <div id="texto">
-    <div id="nombre">
-        <h1>VIRGINIA HERRERO POLO</h1>
-        <h2>Desarrolladora Web</h2>
+    <div id="">
+        <h1 class="nombre">VIRGINIA HERRERO POLO</h1>
+        <h2 class="nombre">Full stack Developer</h2>
         <p id="mi_descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia
             deleniti sit
-            aliquam
+            aliquam 
             eveniet
             praesentium dolore, ratione iusto consectetur ab sequi dignissimos doloribus eos quia iste
             fugiat
@@ -33,28 +33,23 @@ const Sobre_mi = `
             nesciunt labore, temporibus assumenda ipsa aperiam?</p>
     </div>
     <div id="datos_personales">
-        <div class="enunciados">
-            <h4>Edad:</h4>
-            <h4>Dirección:</h4>
-            <h4>Email:</h4>
-        </div>
+        <div class="enunciados">        
+            <span class="ocultar_texto"><h4 id="margen_especial">Email:</h4></span>
+            <span class="ocultar_texto"><h4 class="enunciados">Teléfono:</h4></span>
+        </div> 
         <div class="datos">
-            <h4>37</h4>
-            <h4>Alcorisa 57, 12º B, 28043 - MADRID</h4>
-            <h4><a href="mailto:vikihpolo@gmail.com">vikihpolo@gmail.com</a></h4>
-        </div>
-        <div class="enunciados">
-            <h4 class="enunciados">Teléfono:</h4>
-            <h4 class="enunciados">Linkedin:</h4>
-            <h4 class="enunciados">Nacionalidad:</h4>
-        </div>
-        <div class="datos">
+            <h4 class="datos"><a href="mailto:vikihpolo@gmail.com">vikihpolo@gmail.com</a></h4>
             <h4 class="datos">636723090</h4>
+        </div>
+        <div class="enunciados">
+        <span class="ocultar_texto"><h4 class="enunciados">Linkedin:</h4></span>
+        <span class="ocultar_texto"><h4>Nacionalidad:</h4></span>
+        </div>
+        <div class="datos">
             <a href="https://www.linkedin.com/in/virginia-herrero-6b691218a/" target="_blank">
                 <h4 class="datos">Mi Perfil</h4>
-                
             </a>
-            <h4 class="datos">Española</h4>
+        <h4 class="datos">Española</h4>            
         </div>
     </div>
 </div>
@@ -134,7 +129,9 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
             <h3 class="año">2020</h3>
         </div>
         <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Bootcamp Full Stack Developer - 560 horas</p><br>
+        <p class="titulo">Bootcamp Full Stack Developer</p><br>
+        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
+        <p class="segundo titulo">560 horas</p><br>
         <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
         <p class="escuela">Geekshubs Academy</p>
         <p class="descripcion tabulacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus ratione iure quaerat sunt nesciunt suscipit voluptatem? Molestias maxime eos quis, quam obcaecati fuga non facilis, nisi ipsam illo inventore?</p>
@@ -144,19 +141,22 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
             <h3 class="año">2019</h3>
         </div>
         <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Confección y Publicación de Páginas Web</p>
-        <p class="segundo titulo">Certificado de Profesionalidad - 520 horas</p><br>
+        <p class="titulo">Confección y Publicación</p><br>
+        <p class="tercer titulo">de Páginas Web</p><br>
+        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
+        <p class="segundo titulo">520 horas</p><br>
         <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
         <p class="escuela">Grupo Atrium</p>
-        <p class="descripcion tabulacion">Formación orientada como desarrolladora web, con conocimientos de Java, JSP, SQL, Html, CSS, Javascript y AJAX + <strong>80 horas de prácticas en la empresa Edyals</strong></p>
+        <p class="descripcion tabulacion"><strong>Certificado de profesionalidad</strong> - Formación orientada como desarrolladora web, con conocimientos de Java, JSP, SQL, Html, CSS, Javascript y AJAX + <strong>80 horas de prácticas en la empresa Edyals</strong></p>
     </div>
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2019</h3>
         </div>
         <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Diseño Web - Itinerario Formativo (5 módulos)</p>
-        <p class="segundo titulo">140 horas</p><br>
+        <p class="titulo">Diseño Web</p><br>
+        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
+        <p class="segundo titulo">140 horas (5 módulos)</p><br>
         <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
         <p class="escuela">Escuela de Leganés</p>
         <p class="descripcion tabulacion">Itinerario formativo - Html, CSS, Javascript </p>
@@ -166,23 +166,27 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
             <h3 class="año">2018</h3>
         </div>
         <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Adiestramiento de base y educación canina</p>
-        <p class="segundo titulo">Certificado de profesionalidad - 380 horas</p><br>
+        <p class="titulo">Adiestramiento de base y</p><br>
+        <p class="tercer titulo">educación canina</p><br>
+        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
+        <p class="segundo titulo">380 horas</p><br>
         <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
-        <p class="escuela">Narub, Escuela y Residencia canina (Navalcarnero)</p>
-        <p class="descripcion tabulacion">Técnicas de adiestramiento de base, modificación de conductas no deseadas, cuidados higienicos y primeros auxilios aplicados a perros + Módulo de prácticas en un centro homologado (40 horas)</p>
+        <p class="escuela">Escuela Narub</p>
+        <p class="descripcion tabulacion"><strong>Certificado de profesionalidad</strong> - Técnicas de adiestramiento de base, modificación de conductas no deseadas, cuidados higienicos y primeros auxilios aplicados a perros + Módulo de prácticas en un centro homologado (40 horas)</p>
     </div>    
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2017</h3>
         </div>
         <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
-        <p class="titulo">Dirección y Coordinación de actividades de tiempo</p>
-        <p class="segundo titulo"> libre educativo infantil y juvenil</p>
-        <p class="segundo titulo">Certificado de profesionalidad- 410 horas</p><br>
+        <p class="titulo">Dirección y Coordinación de</p><br>
+        <p class="tercer titulo">actividades de tiempo libre</p><br>
+        <p class="tercer titulo">educativo infantil y juvenil</p><br>
+        <img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">
+        <p class="segundo titulo">410 horas</p><br>
         <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
         <p class="escuela">Masercisa</p>
-        <p class="descripcion tabulacion">Planificación, organización, gestión y evaluación de proyectos educativos de tiempo libre infantil y juvenil. Procesos grupales y educativos. Técnicas y recursos de animación en actividades. Coordinación y dinamización del equipo de monitores.</p>
+        <p class="descripcion tabulacion"><strong>Certificado de profesionalidad</strong> - Planificación, organización, gestión y evaluación de proyectos educativos de tiempo libre infantil y juvenil. Procesos grupales y educativos. Técnicas y recursos de animación en actividades. Coordinación y dinamización del equipo de monitores.</p>
     </div> 
     <div class="estudio">
         <div class="caja_año">
@@ -207,7 +211,7 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
     </div>
 </div>`;
 
-const Experiencia =`<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
+const Experiencia = `<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
 <div id="caja_general">
     <div class="estudio">
         <div class="caja_año">
@@ -276,41 +280,39 @@ const Experiencia =`<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
     </div>
 </div>`;
 
-const Skills =`<h1 class="titulo_principal">SKILLS</h1>
+const Skills = `<h1 class="titulo_principal">SKILLS</h1>
 <div id="caja_general">
-    <div class="estudio">
+    <div class="conocimientos">
         <div class="caja_skills">
             <h3 class="año tamaño">Conocimientos</h3>
         </div>
         <div class="contenido">
             <div class="titulo_conocimientos">
                 <p class="padding">HTML</p>
+                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
                 <p class="padding">CSS</p>
+                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Javascript</p>
+                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Java</p>
+                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
                 <p class="padding">SQL</p>
+                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
                 <p class="padding">AJAX</p>
+                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Office</p>
+                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Photoshop, Premier</p>
+                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
                 <p class="padding">Mecanografía</p>
-                <p class="padding">Terapia asistida con animales</p>
-            </div>
-            <div class="estrellas">
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
                 <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+                <p class="padding">Terapia asistida con animales</p>
                 <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
             </div>
         </div>
     </div>
 
-    <div class="estudio">
+    <div class="conocimientos">
         <div class="caja_skills">
             <h3 class="año tamaño">Otros datos de interés</h3>
         </div>
@@ -328,7 +330,7 @@ const Skills =`<h1 class="titulo_principal">SKILLS</h1>
     </div>
 </div>`;
 
-const Contacto =`<h1 class="titulo_principal">CONTÁCTAME:</h1>
+const Contacto = `<h1 class="titulo_principal">CONTÁCTAME:</h1>
 <p>&nbsp;</p>
 <form action="#" method="post">
     <input name="name" placeholder="Nombre" type="text" required>
@@ -342,45 +344,81 @@ const Contacto =`<h1 class="titulo_principal">CONTÁCTAME:</h1>
 
 </form>`;
 
+// INTENTO DE FIJAR EL MENÚ ARRIBA DEL TODO: 
+
+// window.onscroll = function() {myFunction()};
+
+// var navbar = document.querySelector("header nav");
+// var sticky = navbar.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+document.querySelector('.menu-burguer').addEventListener('click',()=>{
+    document.querySelector('header nav ul').classList.toggle('show')
+})
+
 const main = document.querySelector('main')
 window.addEventListener('load', () => {
     if (window.location.hash === '#portfolio') {
         main.innerHTML = Portfolio
     } else if (window.location.hash === '#estudios') {
         main.innerHTML = Formacion
-    }else if (window.location.hash === '#experiencia') {
+    } else if (window.location.hash === '#experiencia') {
         main.innerHTML = Experiencia
-    }else if (window.location.hash === '#skills') {
+    } else if (window.location.hash === '#skills') {
         main.innerHTML = Skills
-    }else if (window.location.hash === '#contacto') {
+    } else if (window.location.hash === '#contacto') {
         main.innerHTML = Contacto
-
-    }else{
-        main.innerHTML =Sobre_mi
+    } else {
+        main.innerHTML = Sobre_mi
     }
-
+    
 })
-document.querySelector('.index').addEventListener('click', () => {
+document.querySelector('#index').addEventListener('click', () => {
+    
+    document.querySelector('header nav ul').classList.remove('show')
     main.innerHTML = Sobre_mi;
     history.pushState({}, '', '#');
+    window.scrollTo({top:0}); // Para que vuelva a la parte de arriba de la página al cargar la ventana.
 })
-document.querySelector('.portfolio').addEventListener('click', () => {
+document.querySelector('#portfolio').addEventListener('click', () => {
+    
+    document.querySelector('header nav ul').classList.remove('show')
     main.innerHTML = Portfolio;
     history.pushState({}, '', '#portfolio');
+    window.scrollTo({top:0});
 })
-document.querySelector('.estudios').addEventListener('click', () => {
+document.querySelector('#estudios').addEventListener('click', () => {
+    
+    document.querySelector('header nav ul').classList.remove('show')    
     main.innerHTML = Formacion;
     history.pushState({}, '', '#estudios');
+    window.scrollTo({top:0});
 })
-document.querySelector('.experiencia').addEventListener('click', () => {
+document.querySelector('#experiencia').addEventListener('click', () => {
+    
+    document.querySelector('header nav ul').classList.remove('show')    
     main.innerHTML = Experiencia;
     history.pushState({}, '', '#experiencia');
+    window.scrollTo({top:0});
 })
-document.querySelector('.skills').addEventListener('click', () => {
+document.querySelector('#skills').addEventListener('click', () => {
+    
+    document.querySelector('header nav ul').classList.remove('show')    
     main.innerHTML = Skills;
     history.pushState({}, '', '#skills');
+    window.scrollTo({top:0});
 })
-document.querySelector('.contacto').addEventListener('click', () => {
+document.querySelector('#contacto').addEventListener('click', () => {
+    
+    document.querySelector('header nav ul').classList.remove('show')    
     main.innerHTML = Contacto;
     history.pushState({}, '', '#contacto');
+    window.scrollTo({top:0});
 })
