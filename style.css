@@ -30,7 +30,6 @@ main {
     margin: 0 auto;
     padding-top:  100px;
     padding-bottom: 60px;
-    /* height: 100%; */
     box-shadow: 0px 0px 5px 5px grey;
     display: flex;
     flex-wrap: wrap;
@@ -64,8 +63,7 @@ nav>ul>li {
     line-height: 40px;
     transition: all 500ms;
     text-decoration: none;
-    user-select: none;
-    /* Para decirle que no permita la selección del texto del menú */
+    user-select: none;    /* Para decirle que no permita la selección del texto del menú */
     color: white;
 }
 
@@ -91,7 +89,6 @@ nav>ul>li:hover {
 }
 
 #imagen_descarga {
-    /* display: flex; */
     margin: 10px;
     width: 30%;
 }
@@ -125,7 +122,6 @@ nav>ul>li:hover {
 }
 
 #texto {
-    /* display: flex; */
     margin-top: 20px;
     padding: 20px;
     width: 65%;
@@ -155,8 +151,6 @@ h4 {
     color: rgb(99, 98, 98);
 }
 
-
-
 /*************************  ESTILOS ESTUDIOS y EXPERIENCIA *************************/
 
 .titulo_principal {
@@ -169,13 +163,11 @@ h4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin-left: 30px; */
 }
 
 .estudio {
     margin: 25px;
     padding: 20px;
-    /* max-width: 440px; */
     border: 2px solid rgb(99, 98, 98);
     border-radius: 10px;
     width: 40%;
@@ -190,10 +182,6 @@ h4 {
     margin-left: -40px;
     box-shadow: 4px 4px 5px 1px grey;
 }
-
-/* p.pruebitas::before {
-    content: "<img>";
-  } */
 
 .icono_titulo,
 .icono_escuela{
@@ -214,15 +202,6 @@ h4 {
     display: inline-block;
     margin-top: 4px;
 }
-
-/*.segundo {
-    margin-left: 7px;
-    /* margin-top: 0; */
-/*}*/
-
-/* .tercer{
-    margin-left: 32px;
-} */
 
 .descripcion {
     margin-top: 30px;
@@ -263,7 +242,6 @@ h4 {
 .conocimientos{
     margin: 25px;
     padding: 20px;
-    /* max-width: 440px; */
     border: 2px solid rgb(99, 98, 98);
     border-radius: 10px;
     width: 40%;
@@ -275,7 +253,6 @@ h4 {
 
 .otros_datos {
     font-weight: bold;
-    /* padding: 10px 40px 40px 40px; */
 }
 
 .icono_dato {
@@ -284,7 +261,6 @@ h4 {
 }
 
 .contenido {
-    /* display: flex; */
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -305,19 +281,11 @@ h4 {
     padding-bottom: 10px;
 }
 
-/* .estrellas {
-    width: 20%;
-    text-align: left;
-    margin-top: 10px;
-} */
-
 .icono_estrellas {
     width: 80px;
     vertical-align: middle;
     margin-left: 20px;
     padding-bottom: 3px;
-    /* vertical-align: center; */
-
 }
 
 /*************************  CONTACTO *****************************/
@@ -410,25 +378,13 @@ form {
     padding-bottom: 85px;
 }
 
-/* #formulario {
-    max-width: 800px;
-    width: 90%;
-    min-height: 1px;
-    margin: auto;
-    padding-bottom: 40px;
-} */
 .menu-burguer {
     display: none;
 }
+
 /*******************************************/
+
 /* RESPONSIVE*/
-
-
-/* @media (min-width:900px){
-    #caja_general{
-        flex-wrap: unset;
-    }
-} */
 
 @media (max-width:951px){
     #curriculum{
@@ -437,9 +393,6 @@ form {
 }
 
 @media (max-width:940px){
-    /* #contenedor{
-        padding-top: 150px;
-    } */
     nav>ul>li {
         padding: 20px;
     }
@@ -447,17 +400,13 @@ form {
     #imagen_descarga{
         margin-top: 50px;
     }
-
-   
 }
 
 @media (max-width:897px){
     #contenedor{
         padding-top: 80px;
     }
-    /* nav>ul>li {
-        padding: 20px;
-    } */
+   
     .estudio, .conocimientos{
         width: 100%;
         margin: 25px 100px;
@@ -466,36 +415,9 @@ form {
     .año{
         margin-left: -70px;
     }
-    #imagen_descarga{
-        /* margin-top: 50px; */
-    }
-
-    
 }
 
 @media (max-width: 871px){
-    /* #contenedor{
-        padding-top: 80px;
-    } */
-    /* nav>ul>li {
-        padding: 20px;
-    } */
-    /* .estudio, .conocimientos{
-        width: 100%;
-        margin: 25px 100px;
-        padding: 20px 50px;
-    }
-    .año{
-        margin-left: -70px;
-    }
-    #imagen_descarga{
-        margin-top: 50px;
-    }
-
-    #curriculum{
-        padding: 5px;
-    } */
-
     .ocultar_texto{
         display: none;
     }
@@ -503,48 +425,9 @@ form {
     #mi_descripcion{
         margin-bottom: 15px;
     }
-
-    #imagen_descarga{
-        /* margin-top: 120px; */
-    }
-
 }
 
 @media (max-width: 718px){
-    /* #contenedor{
-        padding-top: 150px;
-    } */
-    /* nav>ul>li {
-        padding: 20px;
-    } */
-    /* .estudio, .conocimientos{
-        width: 100%;
-        margin: 25px 100px;
-        padding: 20px 50px;
-    }
-    .año{
-        margin-left: -70px;
-    }
-    #imagen_descarga{
-        margin-top: 50px;
-    }
-
-    #curriculum{
-        padding: 5px;
-    } */
-
-    /* .ocultar_texto{
-        display: none;
-    }
-
-    #mi_descripcion{
-        margin-bottom: 15px;
-    }
-
-    #imagen_descarga{
-        margin-top: 120px;
-    } */
-
     nav>ul>li {
         padding: 10px;
         font-size: 18px;
@@ -603,16 +486,6 @@ form {
         justify-content: center;
     }
 
-
-
-    /* #foto{
-        width: 50%;
-    } */
-
-    /* .mostrar_texto{
-        display: block;
-    } */
-
     #texto{
         width: 100%;
         margin-top: 0;
@@ -626,24 +499,13 @@ form {
     }
     .datos{
         width:40%;
-        /* margin-bottom: 20px; */
         margin-left: 15px;
-        /* text-align: center; */
     }
-
-    /* #ocultar_texto{
-        display: none;
-
-    } */
 
     .nombre{
         text-align: center;
         margin-top: 5px;
     }
-
-    /* #margen_especial{
-        margin-top: 33px;
-    } */
 
     .estudio, .conocimientos{
         width: 80%;
@@ -652,28 +514,19 @@ form {
     }
 
     .año{
-        margin-left: -23px;;
+        margin-left: -17px;;
     }
 }
 
 @media (max-width: 559px) {
     .estudio, .conocimientos{
         width: 100%;
-        /* margin: 10px;
-        padding: 10px; */
-    }
 
-    /* .conocimientos {
-        width: 100%;
-        margin: 1px;
-        padding: 5px;
-    } */
+    }
 
     .tamaño {
         width: 220px;
     }
-
-   
 
     .titulo_principal{
         font-size: 25px;
@@ -682,12 +535,7 @@ form {
 
 @media (max-width: 430px) {
     #datos_personales {
-        /* display: flex; */
         flex-direction: column;
-
-
-
-        /* flex-wrap: nowrap */
     }
 
     .datos{
@@ -700,8 +548,4 @@ form {
     #sobre_mi{
         padding: 0;
     }
-
-
-
-
 }
