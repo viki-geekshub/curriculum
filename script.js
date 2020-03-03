@@ -306,13 +306,15 @@ const Contacto = `<h1 class="titulo_principal">CONTÁCTAME:</h1>
     <input name="name" placeholder="Nombre" type="text" required>
     <input name="empresa" placeholder="Empresa" type="text" required>   
     <input name="email" placeholder="E-mail" type="email" required>
-    <input name="phone" placeholder="Teléfono (9 dígitos)" type="text" pattern="^[9|8|7|6]\d{8}$" required>
+    <input name="phone" placeholder="Teléfono (9 dígitos)" type="text" pattern="^(\+34|0034|34)?[6|7|8|9][0-9]{8}$" required>
     <textarea name="message" placeholder="Mensaje" required></textarea>
 
     <input type="reset" value="Borrar">
     <input type="submit" value="Enviar">
 
 </form>`;
+
+
 
 // INTENTO DE FIJAR EL MENÚ ARRIBA DEL TODO: 
 
@@ -392,3 +394,4 @@ document.querySelector('#contacto').addEventListener('click', () => {
     history.pushState({}, '', '#contacto');
     window.scrollTo({top:0});
 })
+
