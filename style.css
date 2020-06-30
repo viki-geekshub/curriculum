@@ -150,6 +150,22 @@ h4 {
 .enunciados {
     color: rgb(99, 98, 98);
 }
+/* 
+footer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #48768F;
+    color: white;
+    padding: 2%;
+} */
+
+/* .footer {
+    display: flex;
+    justify-content: space-between; */
+    /* position: fixed; */
+    /* top: 3;
+} */
 
 /*************************  ESTILOS ESTUDIOS y EXPERIENCIA *************************/
 
@@ -261,11 +277,8 @@ h4 {
 }
 
 .contenido {
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.titulo_conocimientos {
+    /* justify-content: center;
+    flex-wrap: wrap; */
     width: 100%;
     text-align: right;
     font-weight: bold;
@@ -286,6 +299,13 @@ h4 {
     vertical-align: middle;
     margin-left: 20px;
     padding-bottom: 3px;
+}
+.interes{
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 10px;
+    /* width: 40%; */
 }
 
 /*************************  CONTACTO *****************************/

@@ -2,35 +2,19 @@ const Sobre_mi = `
 <div id="sobre_mi">
 <div id="imagen_descarga">
     <img id="foto" src="imagenes/foto_2.png" alt="Foto de perfil Virginia Herrero Polo" />
-    
     <a href="archivos/curriculum.pdf" target="_blank">
-    <div id="curriculum">
-
+        <div id="curriculum">
             <img id="icono_descarga" src="imagenes/icono_descarga_amarillo.webp"
                 alt="Icono de descarga">
             <h4 id="descarga">Descargar mi currículum</h4>
-        
-    </div>
-
-</a>
+        </div>
+    </a>
 </div>
 <div id="texto">
     <div id="">
         <h1 class="nombre">VIRGINIA HERRERO POLO</h1>
         <h2 class="nombre">Full stack Developer</h2>
-        <p id="mi_descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia
-            deleniti sit
-            aliquam 
-            eveniet
-            praesentium dolore, ratione iusto consectetur ab sequi dignissimos doloribus eos quia iste
-            fugiat
-            fugit
-            dicta distinctio officiis pariatur. Sint iure nostrum voluptate veniam eveniet odit et
-            beatae
-            quos
-            perferendis natus quam voluptatibus, earum error molestiae ipsum dolor voluptas laboriosam
-            ducimus
-            nesciunt labore, temporibus assumenda ipsa aperiam?</p>
+        <p id="mi_descripcion">Me formé como técnico de imagen y sonido y estuve trabajando en una empresa de suministro de aguas durante más de 10 años. Cuando esta etapa terminó para mí, me planteé cambiar de vida por completo y pasé un tiempo formándome en diversos campos hasta dar con el desarrollo web. Desde entonces y durante el último año he realizado varios cursos de programación y diseño web hasta terminar cursando el bootcamp de GeeksHubs Academy para ser desarrolladora web full stack. Mi ilusión es convertir el desarrollo web en mi carrera profesional y poder ir creciendo día a día en este sector. Me considero una persona trabajadora, responsable, entusiasta y tenaz en mi trabajo. </p>
     </div>
     <div id="datos_personales">
         <div class="enunciados">        
@@ -43,19 +27,21 @@ const Sobre_mi = `
         </div>
         <div class="enunciados">
         <span class="ocultar_texto"><h4 class="enunciados">Linkedin:</h4></span>
-        <span class="ocultar_texto"><h4>Nacionalidad:</h4></span>
+        <span class="ocultar_texto"><h4>GitHub:</h4></span>
         </div>
         <div class="datos">
             <a href="https://www.linkedin.com/in/virginia-herrero-6b691218a/" target="_blank">
                 <h4 class="datos">Mi Perfil</h4>
             </a>
-        <h4 class="datos">Española</h4>            
+            <a href="https://github.com/viki-geekshub?tab=repositories" target="_blank">
+                <h4 class="datos">Mis repositorios</h4>
+            </a>            
         </div>
     </div>
 </div>
 </div>`;
 
-const Portfolio = ` <h1 class="titulo_principal">PORTFOLIO</h1>
+const Portfolio = ` <h1 class="titulo_principal">Página en construción...</h1>
 <div id="caja_general">
     <a href="#">
         <div class="caja_proyecto">
@@ -129,9 +115,9 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
             <h3 class="año">2020</h3>
         </div>
         <p class="titulo"><img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">&nbsp; Bootcamp Full Stack Developer</p><br>
-        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp; 560 horas</p><br>
+        <p class="titulo"><img src="imagenes/icono_relog3.webp" alt="Icono de relog" class="icono_relog">&nbsp;&nbsp; 480 horas</p><br>
         <p class="escuela"><img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">&nbsp; Geekshubs Academy</p>
-        <p class="descripcion tabulacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus ratione iure quaerat sunt nesciunt suscipit voluptatem? Molestias maxime eos quis, quam obcaecati fuga non facilis, nisi ipsam illo inventore?</p>
+        <p class="descripcion tabulacion">Formación orientada como desarrollador web full stack en Geekshubs Academy, con conocimientos de Html, CSS, Javascript, Typescript, jQuery, MongoDB, Mongoose, MySQL, PHP, Laravel, Git, GitFlow, Metodologías Ágiles, Angular, ReactJS + Redux, NodeJS, Express, Sequelize, Wordpress, Docker (De febrero a junio 2020).</p>
     </div>
     <div class="estudio">
         <div class="caja_año">
@@ -190,6 +176,17 @@ const Formacion = `<h1 class="titulo_principal">FORMACIÓN</h1>
 
 const Experiencia = `<h1 class="titulo_principal">EXPERIENCIA LABORAL</h1>
 <div id="caja_general">
+    <div class="estudio">
+        <div class="caja_año">
+            <h3 class="año">2020</h3>
+        </div>
+        <img src="imagenes/icono_titulo.png" alt="Icono de titulo" class="icono_titulo">
+        <p class="titulo">Full Stack Developer (Bootcamp)</p><br>
+        <img src="imagenes/icono_escuela.png" alt="Icono de escuela" class="icono_escuela">
+        <p class="escuela">Geekshubs Academy</p>
+        <p class="descripcion tabulacion">Como programadora web full stack en Geekshubs Academy he desarrollado un portfolio personal, un software de administración de proyectos con interfaz web similar a Trello, un buscador de películas mediante una api externa, un e-commerce y una red social similar a Tinder (De febrero a junio 2020 - 480 horas). <br>
+        Para ver mis proyectos pincha <a href="https://github.com/viki-geekshub?tab=repositories" target="_blank">aquí</a>.</p>
+    </div>    
     <div class="estudio">
         <div class="caja_año">
             <h3 class="año">2007 - 2017</h3>
@@ -251,51 +248,152 @@ const Skills = `<h1 class="titulo_principal">SKILLS</h1>
 <div id="caja_general">
     <div class="conocimientos">
         <div class="caja_skills">
-            <h3 class="año tamaño">Conocimientos</h3>
+            <h3 class="año tamaño">Lenguajes de programación</h3>
         </div>
         <div class="contenido">
-            <div class="titulo_conocimientos">
-                <p class="padding">HTML</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <p class="padding">CSS</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Javascript</p>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Java</p>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
-                <p class="padding">SQL</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <p class="padding">AJAX</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Office</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Photoshop</p>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Premiere</p>
-                <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Mecanografía</p>
-                <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
-                <p class="padding">Terapia asistida con animales</p>
-                <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas">
-                <br>
-            </div>
+            <p class="padding">Javascript</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">PHP</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+            <p class="padding">SQL</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Typescript</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Java</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <p class="padding">JSP</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
         </div>
+        <br>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Otros lenguajes</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">HTML</p>
+            <img src="imagenes/5-estrellas.png" alt="5 estrellas" class="icono_estrellas"><br>
+            <p class="padding">CSS</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">SASS</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+        </div>
+        <br>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Bases de datos</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">MySQL</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">MongoDB</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+        </div>
+        <br>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Gestor de contenidos</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">Wordpress</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+        </div>
+        <br>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Editores de código y entornos de desarrollo</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">Sublime Text</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Visual Studio Code</p>
+            <img src="imagenes/5-estrellas.png" alt="5 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Dreamweaver</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Eclipse</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+        </div>
+        <br>
     </div>
 
     <div class="conocimientos">
+        <div class="caja_skills">
+            <h3 class="año tamaño">Frameworks y librerías</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">AJAX</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+            <p class="padding">jQuery</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Laravel</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+            <p class="padding">NodeJS</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Express</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Sequelize</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Mongoose</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Angular 9</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">React</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Redux</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Antdesign</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Material IU</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Bootstrap</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <br>   
+        </div>
+        <br>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Control de versiones</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">Git + Metodología GitFlow</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <br>
+        </div>
+        <br>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Otras herramientas y tecnologías</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">Postman</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Docker</p>
+            <img src="imagenes/1-estrellas.png" alt="1 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Metodologías Ágiles</p>
+            <img src="imagenes/4-estrellas.png" alt="4 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Photoshop</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <p class="padding">Premiere</p>
+            <img src="imagenes/2-estrellas.png" alt="2 estrellas" class="icono_estrellas"><br>
+            <br>
+        </div>
+        <div class="caja_skills">
+            <h3 class="año tamaño">Ofimática</h3>
+        </div>
+        <div class="contenido">
+            <p class="padding">Paquete office: Word, Excel</p>
+            <img src="imagenes/3-estrellas.png" alt="3 estrellas" class="icono_estrellas"><br>
+        </div>
+    </div>
+
+    <div class="interes">
         <div class="caja_skills">
             <h3 class="año tamaño">Otros datos de interés</h3>
         </div>
         <div class="otros_datos">
                 <p class="padding2">Permiso de circulación clase B y vehículo propio</p>
+                <p class="padding2">Disponibilidad a jornada completa</p>
+                <p class="padding2">Posibilidad de incorporación inmediata</p>  
                 <p class="padding2">10 años organizando y dinamizando grupos Scouts para niños y adolescentes</p>          
                 <p class="padding2">2 años organizando eventos y dinámicas de cohesión para adultos como voluntaria</p>
                 <p class="padding2">Curso de Manipuladora de Alimentos (2017)</p>
-                <p class="padding2">Conocimientos de Inglés - Nivel bajo</p>
-                <p class="padding2">Escalada y capoeira</p>
-                <p class="padding2">Juegos de mesa y estrategia</p>
-                <p class="padding2">Disponibilidad a jornada completa</p>
-                <p class="padding2">Posibilidad de incorporación inmediata</p>                    
+                <p class="padding2">Certificado de profesionalidad en adiestramiento y educación canina, con conocimientos en terapia asistida con animales</p> 
+                <p class="padding2">Título de Mecanografía</p>
+                <p class="padding2">Escalada y Capoeira</p>
+                <p class="padding2">Juegos de mesa y estrategia</p>                  
         </div>
     </div>
 </div>`;
@@ -314,9 +412,7 @@ const Contacto = `<h1 class="titulo_principal">CONTÁCTAME:</h1>
 
 </form>`;
 
-
-
-// INTENTO DE FIJAR EL MENÚ ARRIBA DEL TODO: 
+// INTENTO DE FIJAR EL MENÚ ARRIBA: 
 
 // window.onscroll = function() {myFunction()};
 
